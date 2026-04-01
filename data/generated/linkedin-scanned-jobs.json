@@ -1,0 +1,92 @@
+{
+  "scannedJobs": {
+    "https://www.linkedin.com/jobs/view/4363500204/": {
+      "jobId": "4363500204",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4363500204/",
+      "title": "",
+      "company": "",
+      "searchTitle": "Senior Technical Product Manager",
+      "scannedAt": "2026-03-20T11:03:06.060Z",
+      "recommendation": "error",
+      "saved": false,
+      "error": "Scout processing for https://www.linkedin.com/jobs/view/4363500204/ timed out after 90000ms"
+    },
+    "https://www.linkedin.com/jobs/view/4378021143/": {
+      "jobId": "4378021143",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4378021143/",
+      "title": "",
+      "company": "",
+      "searchTitle": "Senior Technical Product Manager",
+      "scannedAt": "2026-03-20T11:04:43.297Z",
+      "recommendation": "error",
+      "saved": false,
+      "error": "Scout processing for https://www.linkedin.com/jobs/view/4378021143/ timed out after 90000ms"
+    },
+    "https://www.linkedin.com/jobs/view/4359137000/": {
+      "jobId": "4359137000",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4359137000/",
+      "title": "",
+      "company": "",
+      "searchTitle": "Senior Technical Product Manager",
+      "scannedAt": "2026-03-20T11:06:20.521Z",
+      "recommendation": "error",
+      "saved": false,
+      "error": "Scout processing for https://www.linkedin.com/jobs/view/4359137000/ timed out after 90000ms"
+    },
+    "https://www.linkedin.com/jobs/view/4369206222/": {
+      "jobId": "4369206222",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4369206222/",
+      "title": "",
+      "company": "",
+      "searchTitle": "Senior Technical Product Manager",
+      "scannedAt": "2026-03-20T11:07:57.748Z",
+      "recommendation": "error",
+      "saved": false,
+      "error": "Scout processing for https://www.linkedin.com/jobs/view/4369206222/ timed out after 90000ms"
+    },
+    "https://www.linkedin.com/jobs/view/4387376700/": {
+      "jobId": "4387376700",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4387376700/",
+      "title": "",
+      "company": "",
+      "searchTitle": "Senior Technical Product Manager",
+      "scannedAt": "2026-03-20T11:09:34.972Z",
+      "recommendation": "error",
+      "saved": false,
+      "error": "Scout processing for https://www.linkedin.com/jobs/view/4387376700/ timed out after 90000ms"
+    },
+    "https://www.linkedin.com/jobs/view/4376912126/": {
+      "jobId": "4376912126",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4376912126/",
+      "title": "",
+      "company": "",
+      "searchTitle": "Senior Technical Product Manager",
+      "scannedAt": "2026-03-20T11:11:12.201Z",
+      "recommendation": "error",
+      "saved": false,
+      "error": "Scout processing for https://www.linkedin.com/jobs/view/4376912126/ timed out after 90000ms"
+    },
+    "https://www.linkedin.com/jobs/view/4378644802/": {
+      "jobId": "4378644802",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4378644802/",
+      "title": "",
+      "company": "",
+      "searchTitle": "Senior Technical Product Manager",
+      "scannedAt": "2026-03-20T11:12:49.423Z",
+      "recommendation": "error",
+      "saved": false,
+      "error": "Scout processing for https://www.linkedin.com/jobs/view/4378644802/ timed out after 90000ms"
+    },
+    "https://www.linkedin.com/jobs/view/4359887727/": {
+      "jobId": "4359887727",
+      "jobUrl": "https://www.linkedin.com/jobs/view/4359887727/",
+      "title": "",
+      "company": "",
+      "searchTitle": "Technical Product Manager",
+      "scannedAt": "2026-03-20T11:14:29.494Z",
+      "recommendation": "error",
+      "saved": false,
+      "error": "Scout processing for https://www.linkedin.com/jobs/view/4359887727/ timed out after 90000ms"
+    }
+  }
+}

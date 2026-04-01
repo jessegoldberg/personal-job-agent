@@ -1,0 +1,55 @@
+{
+  "defaultResume": "data/resumes/master_resume.md",
+  "roleFamilies": {
+    "product_manager": {
+      "resumePath": "data/resumes/resume-product-manager.md",
+      "keywords": [
+        "product manager",
+        "roadmap",
+        "prioritization",
+        "stakeholders",
+        "requirements"
+      ]
+    },
+    "sales_engineer": {
+      "resumePath": "data/resumes/resume-sales-engineer.md",
+      "keywords": [
+        "sales engineer",
+        "solutions engineer",
+        "pre-sales",
+        "solutions consultant",
+        "technical demos",
+        "RFP"
+      ]
+    },
+    "technical_platform": {
+      "resumePath": "data/resumes/resume-technical-platform.md",
+      "keywords": [
+        "api",
+        "platform",
+        "integrations",
+        "distributed systems",
+        "technical product manager",
+        "authentication",
+        "data flows"
+      ]
+    },
+    "media_workflows": {
+      "resumePath": "data/resumes/resume-solutions-architect-media.md",
+      "keywords": [
+        "media workflows",
+        "streaming",
+        "rtsp",
+        "live video",
+        "broadcast",
+        "content operations",
+        "digital signage",
+        "media platform",
+        "solutions architect",
+        "video infrastructure",
+        "asset management",
+        "content scheduling"
+      ]
+    }
+  }
+}

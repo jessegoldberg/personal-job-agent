@@ -1,0 +1,4 @@
+Prepare likely application answers based only on provided materials.
+Use the selected baseline resume for emphasis and phrasing.
+Use the master resume only for additional factual support.
+Flag anything that needs manual user review.

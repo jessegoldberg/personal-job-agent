@@ -1,0 +1,327 @@
+:root {
+  --page-width: 8.5in;
+  --page-padding-top: 0.35in;
+  --page-padding-right: 0.50in;
+  --page-padding-bottom: 0.35in;
+  --page-padding-left: 0.50in;
+  --text: #111827;
+  --muted: #6b7280;
+  --rule: #d1d5db;
+  --rule-accent: #9ca3af;
+  --accent: #0f172a;
+  --section: #1e3a5f;
+  --bg: #ffffff;
+}
+
+@page {
+  size: Letter;
+  margin: 0.35in 0.50in 0.35in 0.50in;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #e5e7eb;
+  color: var(--text);
+  font-family: "Inter", "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 9.75pt;
+  line-height: 1.33;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+}
+
+.resume-page {
+  width: var(--page-width);
+  min-height: 11in;
+  background: var(--bg);
+  padding: var(--page-padding-top) var(--page-padding-right) var(--page-padding-bottom)
+    var(--page-padding-left);
+  box-shadow: 0 4px 24px rgba(15, 23, 42, 0.10);
+}
+
+/* ── Reset ─────────────────────────────────────────────────────────────── */
+h1, h2, h3, h4, p, ul, ol, li, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Header block: name + contact centered above the rule ───────────────── */
+.resume-header {
+  text-align: center;
+  padding-bottom: 0.10in;
+  margin-bottom: 0;
+  border-bottom: 2px solid var(--section);
+}
+
+.resume-header h1 {
+  font-size: 23pt;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--accent);
+  margin-bottom: 0.05in;
+  line-height: 1.1;
+}
+
+/* Single centered line: City • Phone • Email • LinkedIn */
+.contact-line {
+  display: block;
+  text-align: center;
+  font-size: 9.25pt;
+  color: var(--muted);
+  letter-spacing: 0.005em;
+  margin: 0 !important;
+  padding: 0;
+}
+
+/* ── Professional tagline: left-aligned, bold, below the rule ────────────── */
+.resume-tagline {
+  margin-top: 0.06in;
+  margin-bottom: 0.06in;
+  padding: 0;
+  border: none !important;
+  text-align: left;
+  font-size: 10.5pt;
+  font-weight: 700;
+  text-transform: none !important;
+  letter-spacing: 0.005em;
+  color: var(--section);
+  line-height: 1.25;
+}
+
+/* Optional city/location within a role-header */
+.role-location {
+  font-size: 9pt;
+  font-weight: 400;
+  color: var(--muted);
+  margin-left: 0.05in;
+}
+
+/* ── Section wrappers and headers ───────────────────────────────────────── */
+.resume-section {
+  break-inside: auto;
+  page-break-inside: auto;
+}
+
+.resume-section-focus {
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
+
+h2 {
+  margin-top: 0.12in;
+  margin-bottom: 0.04in;
+  padding-bottom: 0.02in;
+  font-size: 9.25pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--section);
+  border-bottom: 1.5px solid var(--section);
+  break-after: avoid;
+}
+
+/* ── Company names ───────────────────────────────────────────────────────── */
+h3 {
+  margin-top: 0.09in;
+  margin-bottom: 0;
+  font-size: 10.25pt;
+  font-weight: 700;
+  color: var(--accent);
+  break-after: avoid;
+}
+
+/* ── Role subsection headers ─────────────────────────────────────────────── */
+h4 {
+  margin-top: 0.05in;
+  margin-bottom: 0.01in;
+  font-size: 8.75pt;
+  font-weight: 700;
+  color: var(--section);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  break-after: avoid;
+}
+
+/* ── Role header: title left + date right ────────────────────────────────── */
+p.role-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 0.005in;
+  margin-bottom: 0.025in;
+  gap: 0.1in;
+  break-after: avoid;
+}
+
+.role-title {
+  flex: 1;
+}
+
+.role-title strong {
+  font-size: 10pt;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.role-date {
+  font-size: 9pt;
+  color: var(--muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ── Areas of Focus: 2-column grid ──────────────────────────────────────── */
+/*
+ * Wrap all focus-line paragraphs in a .focus-grid div (injected by
+ * resume_template.ts). Each cell shows the bold label on one line and
+ * the comma-separated skills below it in smaller muted text.
+ */
+.focus-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.04in 0.15in;
+  margin-top: 0.03in;
+  margin-bottom: 0.03in;
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
+
+p.focus-line {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 9pt;
+  line-height: 1.35;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.focus-label {
+  display: block;
+}
+
+.focus-label strong {
+  font-weight: 700;
+  font-size: 9pt;
+  color: var(--accent);
+}
+
+.focus-skills {
+  display: block;
+  font-size: 8.5pt;
+  color: var(--muted);
+  line-height: 1.3;
+  margin-top: 0.01in;
+}
+
+/* ── Body paragraphs ─────────────────────────────────────────────────────── */
+p {
+  margin-bottom: 0.04in;
+  font-size: 9.25pt;
+  line-height: 1.35;
+}
+
+/* ── Bullet lists ────────────────────────────────────────────────────────── */
+ul, ol {
+  margin-top: 0.015in;
+  margin-bottom: 0.04in;
+  padding-left: 0.16in;
+}
+
+li {
+  margin-bottom: 0.018in;
+  padding-left: 0.01in;
+  font-size: 9.25pt;
+  line-height: 1.33;
+}
+
+ul li::marker,
+ol li::marker {
+  color: var(--rule-accent);
+}
+
+/* ── Inline typography ───────────────────────────────────────────────────── */
+strong {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+em {
+  font-style: italic;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 0.1in 0;
+}
+
+blockquote {
+  margin: 0.08in 0;
+  padding-left: 0.1in;
+  border-left: 2px solid var(--rule);
+  color: var(--muted);
+}
+
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.9em;
+}
+
+/* ── Spacing tweaks ──────────────────────────────────────────────────────── */
+h2 + h3 {
+  margin-top: 0.05in;
+}
+
+h3 + p,
+h3 + p.role-header {
+  margin-top: 0.005in;
+}
+
+h4 + ul {
+  margin-top: 0.01in;
+}
+
+p:has(+ ul) {
+  margin-bottom: 0.01in;
+}
+
+/* ── Print ───────────────────────────────────────────────────────────────── */
+@media print {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff !important;
+  }
+
+  body {
+    display: block;
+  }
+
+  .resume-page {
+    width: auto;
+    min-height: auto;
+    margin: 0;
+    padding: 0;
+    background: transparent !important;
+    box-shadow: none !important;
+    overflow: visible;
+  }
+}

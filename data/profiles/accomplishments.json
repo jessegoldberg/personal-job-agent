@@ -1,0 +1,263 @@
+[
+  {
+    "id": "rdm-001",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["api", "integrations", "troubleshooting"],
+    "bullet": "Validated and troubleshot API integrations using tools like Postman, identifying request and response issues and resolving data inconsistencies across systems",
+    "evidenceNote": "Direct resume content",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-002",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["authentication", "sso", "enterprise"],
+    "bullet": "Worked with enterprise authentication patterns including SSO, SAML, and token-based access as part of integration workflows and deployments",
+    "evidenceNote": "Resume-backed",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-003",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["customer", "solutions", "sales-engineering"],
+    "bullet": "Led technical discovery sessions with enterprise customers to understand integration requirements and deployment constraints",
+    "evidenceNote": "Appears across all resume variants",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-004",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["sales-engineering", "enterprise", "deals"],
+    "bullet": "Acted as the primary technical partner on enterprise deals ranging from $1M–$5M, including leading solution engineering for a $4M government contract",
+    "evidenceNote": "Strong differentiator, appears in multiple resumes",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-005",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["rfp", "sales", "communication"],
+    "bullet": "Contributed to 5–10 enterprise RFP responses annually, translating platform capabilities into clear technical narratives",
+    "evidenceNote": "Consistent across resumes",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-006",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["distributed-systems", "reliability"],
+    "bullet": "Supported a distributed platform across 1,000+ locations and maintained 99.99% availability through issue identification and system improvements",
+    "evidenceNote": "Core credibility point",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-007",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["aws", "cloud", "migration"],
+    "bullet": "Partnered on AWS migration planning, including authentication scoping, database considerations, and domain/TLS continuity",
+    "evidenceNote": "Resume-backed, not overstated",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-008",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["programmatic", "integrations"],
+    "bullet": "Supported programmatic advertising integrations, aligning external API data with internal scheduling and playback systems",
+    "evidenceNote": "Important but limited scope, kept honest",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-009",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["product", "roadmap"],
+    "bullet": "Owned and prioritized roadmap initiatives across features, integrations, and platform improvements based on customer needs and operational impact",
+    "evidenceNote": "Core PM responsibility",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-010",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["data", "systems", "debugging"],
+    "bullet": "Identified and resolved data flow inconsistencies between upstream systems and downstream platform behavior",
+    "evidenceNote": "Strong systems thinking signal",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-011",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["observability", "operations"],
+    "bullet": "Investigated system-level issues related to timing, synchronization, and API-driven workflows across distributed environments",
+    "evidenceNote": "Operational depth",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-012",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["automation", "ruby"],
+    "bullet": "Built Ruby-based scripts to automate manual workflows such as asset tagging, reducing operational overhead",
+    "evidenceNote": "Clarified as scripting, not deep development",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-013",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["security-review", "questionnaires", "enterprise"],
+    "bullet": "Supported enterprise security reviews and customer questionnaires by documenting architecture, authentication, deployment, network access, and platform operations details for customer environments",
+    "evidenceNote": "User-provided experience note aligned with enterprise evaluation and deployment work",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-014",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["diagrams", "architecture", "discovery"],
+    "bullet": "Translated technical discovery findings into network and deployment diagrams used to support implementation, including VLAN segmentation, routing considerations, endpoint connectivity, MAC-based handling, and alignment with customer IT constraints for on-premise deployments",
+    "evidenceNote": "User-provided implementation detail aligned with discovery and customer deployment support work",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-015",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["demos", "evaluation", "sales-engineering"],
+    "bullet": "Developed tailored demo scenarios and repeatable evaluation walkthroughs aligned to customer technical requirements, operational constraints, and success criteria",
+    "evidenceNote": "Fits existing demo, solution walkthrough, and technical discovery work",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-016",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["tooling", "bash", "node", "playwright", "postman"],
+    "bullet": "Used Bash, Node.js, light Ruby, Postman, and browser automation tooling including Playwright to validate integrations, troubleshoot cross-system issues, and improve repeatable technical workflows",
+    "evidenceNote": "User-provided tooling note combined with existing API validation and scripting work",
+    "confidence": "high"
+  },
+  {
+    "id": "consult-001",
+    "company": "Integrated Network Solutions",
+    "role": "Consultant",
+    "tags": ["consulting", "automation", "networking"],
+    "bullet": "Provided consulting on workflow automation, SaaS integrations, and secure network configuration for a professional services firm",
+    "evidenceNote": "Side business, long-term engagement",
+    "confidence": "high"
+  },
+  {
+    "id": "consult-002",
+    "company": "Integrated Network Solutions",
+    "role": "Consultant",
+    "tags": ["operations", "efficiency"],
+    "bullet": "Implemented technical improvements that reduced manual processes and improved system visibility",
+    "evidenceNote": "General but accurate",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-media-001",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["media-workflows", "streaming", "rtsp", "live-video"],
+    "bullet": "Scoped and drove delivery of live stream / RTSP support across the full stack including UI, gateway, scheduling engine, and player runtime, enabling real-time media use cases for enterprise retail customers",
+    "evidenceNote": "Resume-backed, cross-stack scope clearly stated",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-media-002",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["media-workflows", "content-operations", "automation"],
+    "bullet": "Built Ruby-based automation tooling to handle large-scale content operations including asset tagging and batch processing, reducing turnaround from hours to minutes for rollouts of 60+ assets",
+    "evidenceNote": "Resume-backed, quantified impact",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-media-003",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["media-workflows", "programmatic", "adtech", "scheduling"],
+    "bullet": "Contributed to programmatic advertising integrations connecting external ad APIs with embedded player scheduling and playback constraints in a distributed media platform",
+    "evidenceNote": "Resume-backed",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-media-004",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["media-workflows", "distributed-systems", "player", "observability"],
+    "bullet": "Collaborated on runtime diagnostics and provisioning tooling for distributed media player infrastructure across 1,000+ locations, improving onboarding efficiency and remote observability",
+    "evidenceNote": "Resume-backed",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-media-005",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["solutions-architecture", "media-workflows", "enterprise", "deployment"],
+    "bullet": "Designed and delivered tailored solution walkthroughs for enterprise customers covering media workflow architecture, content scheduling, and deployment models across large distributed environments",
+    "evidenceNote": "Resume-backed, framed toward solutions architecture",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-media-006",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["solutions-architecture", "reliability", "uptime", "media-platform"],
+    "bullet": "Maintained 99.99% platform availability for a media distribution platform serving 1,000+ enterprise locations through proactive reliability improvements and escalation management",
+    "evidenceNote": "Core credibility point for media platform reliability",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-media-007",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["media-workflows", "asset-management", "content-operations"],
+    "bullet": "Managed content operations workflows including asset tagging, batch processing, and large-scale rollouts across a distributed media platform serving 1,000+ enterprise locations",
+    "evidenceNote": "Supported by automation tooling bullet and content ops work",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-media-008",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["sales-engineering", "post-sale", "onboarding", "customer-success"],
+    "bullet": "Provided post-sale technical support during onboarding and rollout phases, ensuring deployed solutions matched customer workflows and infrastructure requirements",
+    "evidenceNote": "Naturally follows from solutions engineering and deployment support work",
+    "confidence": "high"
+  },
+  {
+    "id": "rdm-postprod-001",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["post-production", "video-editing", "premiere", "motion", "content-ops"],
+    "bullet": "Applied working knowledge of Adobe Premiere and Motion to review, prepare, and troubleshoot video assets in digital signage content operations workflows",
+    "evidenceNote": "Hands-on familiarity from digital signage content ops — verify scope before interview",
+    "confidence": "medium"
+  },
+  {
+    "id": "rdm-postprod-002",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["post-production", "format-conversion", "codec", "content-ops", "media-workflows"],
+    "bullet": "Worked with video content pipelines for digital signage deployments, including format conversion, codec compatibility, and asset preparation to meet player and display specifications",
+    "evidenceNote": "Common in digital signage ops — confirm specific formats/codecs handled",
+    "confidence": "medium"
+  },
+  {
+    "id": "rdm-postprod-003",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["post-production", "media-qa", "content-operations", "digital-signage"],
+    "bullet": "Reviewed and validated media assets for quality, format compliance, and playback compatibility across distributed digital signage deployments at enterprise scale",
+    "evidenceNote": "QA and validation naturally part of content ops at this scale",
+    "confidence": "medium"
+  }
+]

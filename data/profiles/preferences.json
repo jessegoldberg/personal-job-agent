@@ -1,0 +1,58 @@
+{
+  "targetTitles": [
+    "Senior Technical Product Manager",
+    "Technical Product Manager",
+    "Solutions Engineer",
+    "Sales Engineer",
+    "Solutions Architect"
+  ],
+  "rolePriority": [
+    "sales_engineer",
+    "technical_platform",
+    "product_manager"
+  ],
+  "locationPreferences": {
+    "remote": true,
+    "hybrid": true,
+    "onsite": false,
+    "preferredStates": ["FL"]
+  },
+  "compensation": {
+    "minimumBaseSalary": 160000,
+    "targetBaseSalary": 180000,
+    "idealBaseSalary": 200000
+  },
+  "companyPreferences": {
+    "preferGrowthStage": true,
+    "avoidHighlyBureaucratic": true
+  },
+  "keywordsMustHave": [
+    "API",
+    "integrations",
+    "distributed systems",
+    "enterprise",
+    "SaaS"
+  ],
+  "keywordsNiceToHave": [
+    "programmatic",
+    "adtech",
+    "platform",
+    "cloud",
+    "AWS"
+  ],
+  "keywordsAvoid": [
+    "Oracle ERP",
+    "SAP",
+    "pure data scientist",
+    "heavy ML research"
+  ],
+  "applyModes": {
+    "autoSubmit": false,
+    "browserDraftOnly": true,
+    "requireManualReview": true
+  },
+  "fitThresholds": {
+    "apply_now": 80,
+    "apply_with_caution": 60
+  }
+}

@@ -1,0 +1,104 @@
+You are tailoring a resume to a specific job posting. Your output must be a complete, polished resume in markdown format — not an analysis, not a list of suggestions.
+
+CRITICAL CANDIDATE INTEGRITY RULE — DO NOT VIOLATE:
+The candidate is NOT a software engineer or developer. Never frame them as one. Specifically:
+- Do not describe Ruby scripting or Bash automation as "software development" or "engineering"
+- Do not describe API troubleshooting or integration support as "API development"
+- Do not use job titles, summary language, or bullet framing that implies the candidate writes production code
+- The candidate's dev-adjacent work (scripts, automation tooling, node-based integrations) should be framed as operational automation and tooling support — not engineering
+- If the job posting requires software development as a core function, this resume should not have been tailored for it
+
+Before writing anything, work through this analysis internally:
+
+PRE-WRITING ANALYSIS (internal — do not output this section):
+1. GAP ANALYSIS: List the top 5-7 skills, experiences, or keywords the job requires. For each, rate how directly the candidate's background covers it (direct / adjacent / gap). Note which gaps can be bridged with adjacent experience.
+2. DOMAIN LANGUAGE: Identify 5-10 key terms or phrases from the job description that should appear naturally in the resume (e.g. if the job says "cross-functional alignment" and the resume says "partnering across teams", prefer the job's language where accurate).
+3. KEY SIGNAL REPETITION: Identify 2-3 themes that should appear multiple times across the resume to create a consistent impression (e.g. if the role values customer-facing technical depth, that signal should appear in the summary, in a bullet, and in the Areas of Focus).
+4. STORY THREAD: Decide what single narrative this resume should tell. Every section should reinforce it. Example thread: "Technical operator who bridges product and customers, makes complex systems reliable, and can be trusted by both engineering teams and enterprise buyers."
+5. IMPLICIT EXPERIENCE: Identify experience that's real but understated in the baseline. If the candidate has clearly done something but it's buried or implied, surface it with appropriate confidence.
+
+TAILORING STRATEGY:
+
+Credibility calibration: Use a calibrated-confident tone. Do not undersell with weak hedges like "assisted with" or "had some exposure to." Do not overclaim with "led company-wide initiatives" if the baseline says "contributed to." Match the scope of the claim to what's actually there. If something is in the baseline resume at a peer-contribution level, write it at that level — just write it clearly and with context.
+
+Reframing with adjacent domain language: If the job uses industry terms that map accurately to what the candidate did, use those terms. Example: if the job is in adtech and the candidate built programmatic integrations, use "programmatic advertising infrastructure" — do not invent experience but use accurate vocabulary from the job's domain.
+
+Context + impact structure: Bullets should follow a loose context-then-impact pattern where space allows. "Led technical discovery sessions with enterprise customers [context] to surface integration constraints and reduce deployment risk [impact]" is better than "Led technical discovery sessions." Not every bullet needs this — short, crisp bullets are fine — but thin bullets that list tasks without payoff should be upgraded.
+
+Technical vs. business balance: Scan the job for signals about the audience reading this resume. If the role reports to a VP of Engineering, technical depth matters. If it's a GTM/SE role, customer-facing framing matters. Adjust emphasis accordingly — not by changing facts but by choosing which angle to lead with in each bullet.
+
+Implicit experience promotion: If the candidate clearly has experience that's real but understated (e.g. the baseline says "collaborated on AWS migration" but the job wants cloud architecture), write the bullet in a way that reflects the actual scope of contribution without inflating it. "Partnered on AWS migration planning for large enterprise customers, owning authentication scoping and domain/TLS continuity" is more accurate than "collaborated on AWS migration" if that's actually what happened.
+
+Section-specific optimization:
+- Summary: Should set up the story thread. Read like a person, not a job description. 2-3 sentences max.
+- Work experience bullets: Prioritize the 3-4 strongest signals for this specific job. Cut everything else ruthlessly.
+- Areas of Focus: Should read like a keyword map for this role. Every category should have a clear reason to be there.
+
+Story coherence check: Before finalizing, verify that the summary, the primary RDM subsection, and the Areas of Focus all reinforce the same 2-3 themes. If they diverge, revise until they align.
+
+---
+
+CONTENT RULES:
+- Use only facts from the baseline resume and master resume
+- Do not invent tools, ownership, or achievements
+- The master resume is a fact-check source — not a template
+- When tailoring, check the job for specific skill areas (media workflows, streaming, broadcast, content operations, programmatic advertising, solutions architecture, etc.)
+- If those topics appear in the job and are covered in the master resume but underrepresented in the baseline, surface them
+- Do not omit relevant experience just because it is not prominent in the baseline
+
+---
+
+LENGTH CONSTRAINT - CRITICAL - YOU MUST FOLLOW THIS EXACTLY:
+The tailored resume MUST fit within 2 pages. Total bullet count across the entire resume
+must not exceed 24 bullets. Count every bullet point before outputting and trim if over 24.
+
+Strict bullet limits per subsection:
+- Primary RDM subsection (whichever is most relevant to this job): max 5 bullets
+- All other RDM subsections: max 3 bullets each
+- Reliability & Operational Oversight: max 2 bullets
+- Product Leadership: do NOT give this its own header — fold its 1 bullet into another subsection
+- Organizational Impact: max 2 bullets — keep only the single most differentiating one if tight
+- Integrated Network Solutions: max 2 bullets total
+- Convergys: exactly 1 bullet
+
+Additional structural rules:
+- ALWAYS write a Summary section immediately after the tagline (see formatting rules below)
+- Do NOT use more than 4 RDM subsection headers total (merge if needed)
+- In Areas of Focus, include exactly 6 categories maximum
+- Each Areas of Focus category label must be short — max 4 words
+- Do not pad bullets to fill space — shorter, tighter bullets are better than longer ones
+
+---
+
+SUMMARY SECTION RULES:
+- The summary must appear as its own section using the H2 header: ## Summary
+- Write 3-4 sentences maximum. No more.
+- Tailor the summary to this specific job — it should set up the story thread identified in your pre-writing analysis
+- Use the candidate's voice profile: direct, plain language, no fluff, no em dashes
+- Do NOT start with "I am passionate about", "results-driven", or any generic opener
+- Do NOT write it like marketing copy — it should sound like a real person describing their work
+- Draw only from facts in the baseline or master resume — do not invent claims
+- Good example: "I've spent most of my career working between product, engineering, and customers on distributed SaaS platforms. Most of my work has been around integrations, API behavior, and making complex deployments reliable at scale."
+- Bad example: "A highly accomplished professional with a proven track record of delivering innovative solutions that drive business value."
+
+---
+
+CRITICAL FORMATTING RULES - you must follow these exactly:
+- The candidate name must be an H1 heading: # Jesse Goldberg
+- Contact info lines go immediately after the name, each on its own line with two trailing spaces
+- The professional title/tagline must be an H2 heading: ## Title | Subtitle
+- The summary section must immediately follow the tagline: ## Summary
+  Then a plain paragraph (no bullet points) of 2-3 sentences
+- Section headers (Work Experience, Areas of Focus, Education, Certifications) must be H2: ## Section Name
+- Company names must be H3: ### Company Name
+- Job title and date go on the next two lines after the H3, using two trailing spaces for line breaks:
+  **Job Title**
+  Start Date - End Date
+- Role subsections (e.g. Enterprise Integration, Product Leadership) must be H4: #### Subsection Name
+- Bullet points use - prefix
+- Areas of Focus entries use this format:
+  **Category Label** Skill 1, Skill 2, Skill 3
+- Education and Certifications entries use two trailing spaces for line breaks
+- Areas of Focus section, if the skills list is long and wraps, it should wrap under the main category label.
+
+Do not use plain paragraph text for any section name, company name, or job title.
