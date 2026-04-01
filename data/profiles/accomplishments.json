@@ -144,6 +144,15 @@
     "confidence": "high"
   },
   {
+    "id": "rdm-017",
+    "company": "Real Digital Media",
+    "role": "Senior Technical Product Manager",
+    "tags": ["github", "git", "tooling"],
+    "bullet": "Used GitHub and git across internal and project-based work, including maintaining repositories, tracking changes, and supporting practical automation and tooling workflows",
+    "evidenceNote": "User-provided experience note aligned with existing scripting and automation work",
+    "confidence": "high"
+  },
+  {
     "id": "consult-001",
     "company": "Integrated Network Solutions",
     "role": "Consultant",
@@ -159,6 +168,15 @@
     "tags": ["operations", "efficiency"],
     "bullet": "Implemented technical improvements that reduced manual processes and improved system visibility",
     "evidenceNote": "General but accurate",
+    "confidence": "high"
+  },
+  {
+    "id": "consult-003",
+    "company": "Integrated Network Solutions",
+    "role": "Consultant",
+    "tags": ["microsoft", "mac", "administration", "support"],
+    "bullet": "Supported Microsoft and Mac administration in small-business environments, handling practical system configuration, maintenance, troubleshooting, and user support",
+    "evidenceNote": "User-provided experience note aligned with existing endpoint and environment support work",
     "confidence": "high"
   },
   {

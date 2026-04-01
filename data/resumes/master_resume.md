@@ -90,10 +90,10 @@ Customer Discovery, Technical Discovery, Demo Strategy, POC Scoping, Security Qu
 REST APIs, OAuth, SAML, SSO, Authentication Design, Deployment Diagrams, Programmatic Feeds, Workflow Analysis  
 
 **Infrastructure & Systems**  
-AWS, Distributed Systems, Docker, Linux (Ubuntu/Debian), Networking, TLS / Domain Infrastructure  
+AWS, Distributed Systems, Docker, Linux (Ubuntu/Debian), Microsoft and macOS Administration, Networking, TLS / Domain Infrastructure  
 
 **Tools & Platforms**  
-Jira, Confluence, Postman, Playwright, Salesforce, SQL  
+Jira, Confluence, GitHub, git, Postman, Playwright, Salesforce, SQL  
 
 **Development & Automation**  
 Bash, Node.js Integrations, Light Ruby Scripting, Browser Automation  

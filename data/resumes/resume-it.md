@@ -6,7 +6,7 @@ linkedin.com/in/jesseigoldberg
 
 ## IT Support Specialist | Systems Administration | Network & Endpoint Support
 
-IT professional with 20+ years of experience supporting distributed systems, troubleshooting complex technical issues, and maintaining reliable environments across multi-location organizations. Strong background in Windows environments, networking, identity management, and system-level problem solving, with a focus on hands-on support and improving day-to-day operational stability.
+IT professional with 20+ years of experience supporting distributed systems, troubleshooting complex technical issues, and maintaining reliable environments across multi-location organizations. Strong background in Microsoft and macOS administration, networking, identity management, and system-level problem solving, with a focus on hands-on support and improving day-to-day operational stability.
 
 ---
 
@@ -36,6 +36,7 @@ Supported a distributed SaaS platform across thousands of endpoints in 1,000+ lo
 - Collaborated with support teams to identify recurring issues and improve resolution processes  
 - Helped improve system observability through logging and diagnostics to reduce repeat issues  
 - Worked directly with internal teams and external partners to resolve technical issues quickly and clearly  
+- Supported Microsoft and Mac endpoint administration over time, including day-to-day troubleshooting, configuration, and user environment support  
 
 #### Documentation & Process Improvement
 - Contributed to internal documentation for troubleshooting steps, system behavior, and integration workflows  
@@ -54,6 +55,7 @@ Provide hands-on IT support and system improvements for a small business environ
 - Designed and implemented backup strategies to ensure data protection and recovery readiness  
 - Configured and supported secure network environments, including remote access and general network stability  
 - Diagnosed and resolved system, connectivity, and user environment issues across desktops and network infrastructure  
+- Supported mixed Microsoft and Mac environments, handling practical administration, configuration, and maintenance work across user systems  
 - Reviewed firewall logs and assisted in identifying potential connectivity and security-related issues  
 - Implemented workflow and system improvements to reduce manual processes and improve system visibility  
 
@@ -72,7 +74,8 @@ Lake Mary, FL | 01/2002 – 02/2004
 ## Technical Skills
 
 **Systems & Support**
-- Windows Environments (Server & Endpoint Support)
+- Microsoft Administration (Server & Endpoint Support)
+- macOS Administration
 - Troubleshooting & Root Cause Analysis
 - Endpoint Support & Deployment
 - System Reliability & Issue Resolution
@@ -96,7 +99,7 @@ Lake Mary, FL | 01/2002 – 02/2004
 - TLS / Domain Configuration
 
 **Tools & Platforms**
-- Jira, Confluence, Salesforce
+- Jira, Confluence, GitHub, git, Salesforce
 - Postman (API validation and troubleshooting)
 - SQL (basic querying and analysis)
 
